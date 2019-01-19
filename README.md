@@ -1,8 +1,12 @@
 # back-end-new-stacks
 
-A back-end "PoC" using good new stacks.
+A back-end "PoC" using good stacks.
 
-RESTFul, Gradle, Spring Boot, Spring Data, Jersey, Lombok, MongoDB
+RESTFul project using Spring Boot, Jersey, Gradle, Spring Data, Lombok, MongoDB.
+Authentication: Basic Auth
+
+Install MongoDB
+Install Postman
 
 Design Patterns: Factory, Builder, Adapter, Null Object
 
