@@ -1,0 +1,30 @@
+spring:
+  mail:
+    host: smtp.gmail.com
+    username: emanuel.foliveira@gmail.com
+    password: XXX
+    port: 465
+    defaultEncoding: UTF-8
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+            required: true
+          ssl:
+            enable: true  
+  output:
+    ansi:
+      enabled: always
+  jersey:
+    init:
+      jersey:
+        config:
+          server:
+            response:
+              setStatusOverSendError: true
+  profiles:
+    active: dev
+server:
+  port: ${PORT:5000}

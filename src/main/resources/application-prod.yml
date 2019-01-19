@@ -1,0 +1,5 @@
+spring:
+  data:
+    mongodb:
+      database: Bens
+      uri: ${DB_URI}
